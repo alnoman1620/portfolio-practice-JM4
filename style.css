@@ -10,9 +10,10 @@ h1 {
 }
 section {
   display: flex;
+  margin-bottom: 100px;
 }
 .half-part {
-  width: 50%;
+  width: 40%;
   padding-left: 7%;
   padding-top: 5%;
   text-align: justify;
@@ -28,6 +29,7 @@ section {
   color: white;
   font-weight: 500;
   background-image: linear-gradient(orange, tomato);
+  box-shadow: 10px 5px 8px #888888;
 }
 .btn:hover {
   background-image: linear-gradient(green, yellow);
@@ -35,4 +37,15 @@ section {
 #top-part {
   background-image: url(images/top-banner.png);
   background-repeat: no-repeat;
+}
+h2 {
+  font-size: 35px;
+}
+p {
+  margin-bottom: 30px;
+}
+#middle-part {
+  background-image: url(images/dream-bg.png);
+  background-repeat: no-repeat;
+  background-position: right;
 }
