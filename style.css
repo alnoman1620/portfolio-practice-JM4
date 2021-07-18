@@ -1,5 +1,6 @@
 body {
   font-family: "Poppins", sans-serif;
+  margin: 0;
 }
 .name {
   color: orange;
@@ -30,4 +31,8 @@ section {
 }
 .btn:hover {
   background-image: linear-gradient(green, yellow);
+}
+#top-part {
+  background-image: url(images/top-banner.png);
+  background-repeat: no-repeat;
 }
